@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <!-- use 4 spaces indentation, NOT tabs -->
+    <!-- Overall prefix for the mod is "PL" for PrepareLanding -->
+
+    <!--========================================= Coordinates Window [COORDWIN] =====================================-->
+
+    <PLCOORDWIN_WorldSpecificLocations>Luoghi Specifici nel Mondo</PLCOORDWIN_WorldSpecificLocations> <!-- tool-tip -->
+
+        <!-- translators: be wary that only two letters can fit in the "specific locations" buttons -->
+    <PLCOORDWIN_NorthPoleAbbr>PN</PLCOORDWIN_NorthPoleAbbr> <!-- North Pole -->
+    <PLCOORDWIN_NorthPole>Polo Nord</PLCOORDWIN_NorthPole> <!-- tool-tip displayed on mouse over button -->
+
+    <PLCOORDWIN_SouthPoleAbbr>PS</PLCOORDWIN_SouthPoleAbbr> <!-- south pole -->
+    <PLCOORDWIN_SouthPole>Polo Sud</PLCOORDWIN_SouthPole> <!-- tool-tip -->
+
+    <PLCOORDWIN_OriginPointAbbr>O</PLCOORDWIN_OriginPointAbbr> <!-- 'O' for Origin -->
+    <PLCOORDWIN_OriginPoint>Origine [0°, 0°]</PLCOORDWIN_OriginPoint>
+
+        <!-- point located at the opposite of the Origin point, on the other side of the globe; 'Ante' is Latin for 'opposite' -->
+    <PLCOORDWIN_AnteOriginAbbr>AO</PLCOORDWIN_AnteOriginAbbr>
+    <PLCOORDWIN_AnteOrigin>Anti-Origine [0°, 180°]</PLCOORDWIN_AnteOrigin>
+
+
+        <!-- {0} is a strictly positive number -->
+    <PLCOORDWIN_TileIdNum>ID Posizione [0, {0}]:</PLCOORDWIN_TileIdNum>
+    <PLCOORDWIN_GoButton>Vai alla posizione</PLCOORDWIN_GoButton> <!-- as in "Go to the tile" -->
+        <!-- {0} is a tile ID (number); {1} is the maximum tile number (not included in the range!)-->
+    <PLCOORDWIN_TileIdOutOfRange>Distanza ecceduta: {0}; Distanza: [0, {1}).</PLCOORDWIN_TileIdOutOfRange>  <!-- I cannot understand if you mean out of range,as in distance,or out of range as in excessive number.-->
+    <PLCOORDWIN_CoordsLabel>Coords:</PLCOORDWIN_CoordsLabel> <!-- as in "coordinates" but space is tight -->
+    <PLCOORDWIN_NoTileForCoords>Impossibile trovare luogo date le coordinate:</PLCOORDWIN_NoTileForCoords>
+
+    <!--========================================== Coordinates Parser [COORD] =======================================-->
+    <!-- coordinates.cs -->
+    <PLCOORD_StringDoesntMatchCoords>La stringa data non sembra contenere coordinate.</PLCOORD_StringDoesntMatchCoords>
+    <PLCOORD_FailedParseLongitude>Errore nel definire la longitudine</PLCOORD_FailedParseLongitude>
+    <PLCOORD_FailedParseLatitude>Errore nel definire la latitudine</PLCOORD_FailedParseLatitude>
+    <PLCOORD_LongitudeRange>La longitudine deve essere tra: [0, 180]</PLCOORD_LongitudeRange>
+    <PLCOORD_LatitudeRange>La latitudine deve essere tra: [0, 180]</PLCOORD_LatitudeRange>
+        <!-- displayed on parsing error: string's followed by a space and a letter which is not 'N' or 'S'; latitude should be either 'N' (north) or 'S' (south) -->
+    <PLCOORD_LatitudeDirection>La latitudine deve essere espressa in N o S,ma e'</PLCOORD_LatitudeDirection>
+        <!-- displayed on parsing error: string's followed by a space and a letter which is not 'W' or 'E'; longitude should be either 'W' (west) or 'E' (east) -->
+    <PLCOORD_LongitudeDirection>La longitudine deve essere espressa in W o E,ma e'</PLCOORD_LongitudeDirection>
+
+    <!--============================================ Button Drawer [BDRAW] ==========================================-->
+    <!-- ButtonDrawer.cs -->
+
+    <PLCOORDBDRAW_Close>Chiudi</PLCOORDBDRAW_Close>
+    <PLCOORDBDRAW_Show>Mostra</PLCOORDBDRAW_Show>
+
+</LanguageData>

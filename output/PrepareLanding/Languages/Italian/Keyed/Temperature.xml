@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <!-- Use 4 spaces indentation, NOT tabs -->
+    <!-- Overall prefix for the mod is "PL" for PrepareLanding; MW for Main Window -->
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Terrain II & Temperature Tab [T2T] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <PLMWT2T_TabName>Terreno II &amp; Temp.</PLMWT2T_TabName> <!-- Terrain 2 and Temperature -->
+
+        <!-- side note to translators: a "world feature" is a named location on the world map; that's the name used in RimWorld code -->
+    <PLMWT2T_WorldFeature>Caratteristiche Mondo</PLMWT2T_WorldFeature>
+    <PLMWT2T_WorldFeatureSelection>Selezione Caratteristiche</PLMWT2T_WorldFeatureSelection>
+    <PLMWT2T_SelectWorldFeature>Seleziona Caratteristica/e</PLMWT2T_SelectWorldFeature>
+    <PLMWT2T_AnyWorldFeature>Qualsiasi Caratteristica</PLMWT2T_AnyWorldFeature>
+
+    <PLMWT2T_CoordinatesWindow>Finestra Coordinate</PLMWT2T_CoordinatesWindow>
+    <PLMWT2T_OpenCoordinatesWindow>Apri Finestra Coordinate</PLMWT2T_OpenCoordinatesWindow>
+
+    <PLMWT2T_TemperatureForecast>Previsione Temperatura</PLMWT2T_TemperatureForecast>
+    <PLMWT2T_TempPickTileOnWorldMap>Seleziona un luogo!</PLMWT2T_TempPickTileOnWorldMap>
+    <PLMWT2T_TempSelectedTile>Luogo Selezionato</PLMWT2T_TempSelectedTile>
+    <PLMWT2T_QuadrumDay>Quadrum Giorno</PLMWT2T_QuadrumDay>
+    <PLMWT2T_SelectQuadrum>Seleziona Quadrum/Mese</PLMWT2T_SelectQuadrum>
+    <PLMWT2T_ViewTemperatureForecast>Vedi Previsioni Temperature</PLMWT2T_ViewTemperatureForecast>
+
+    <PLMWT2T_RainfallMillimeters>mm</PLMWT2T_RainfallMillimeters> <!-- SI unit of length: millimeters -->
+
+    <PLMWT2T_MostLeastCharacteristics>Massimo / Minimo Caratteristiche</PLMWT2T_MostLeastCharacteristics>
+    <PLMWT2T_MostLeastSelectCharacteristic>Seleziona Caratteristica</PLMWT2T_MostLeastSelectCharacteristic>
+    <PLMWT2T_MostLeastNumberOfTiles>Numero di Luoghi</PLMWT2T_MostLeastNumberOfTiles>
+    <PLMWT2T_MostLeastSelectCharacteristicType>Seleziona tipo di caratteristica</PLMWT2T_MostLeastSelectCharacteristicType>
+    <PLMWT2T_MostLeastPressButtonFirst>Prima devi usare "{0}".</PLMWT2T_MostLeastPressButtonFirst>
+    <PLMWT2T_MostLeastNowUseButton>Ora usa "{0}".</PLMWT2T_MostLeastNowUseButton>
+    <PLMWT2T_MostLeastHighest>la piu' alta</PLMWT2T_MostLeastHighest> <!-- used in e.g: "Selecting x tiles with the highest temperature" -->
+    <PLMWT2T_MostLeastLowest>la piu' bassa</PLMWT2T_MostLeastLowest>  <!-- ditto, but replace 'highest' with 'lowest' -->
+    <PLMWT2T_MostLeastSelectingTiles>selezionando {0} {1} con {2} {3}</PLMWT2T_MostLeastSelectingTiles>  <!-- used in e.g: "selecting x tiles with the highest temperature" -->
+    <PLMWT2T_MostLeastResult>Risultato</PLMWT2T_MostLeastResult> <!-- prefixed to the above string, e.g: "Result: selecting x tiles with the lowest altitude" -->
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Temperature Forecast Window [TFW] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+        <!-- This window is visible when a tile is picked on the world map and you click on the Forecast button in the
+        temperature tab.
+
+        side note to translators:
+        Each column has a header string and an associated tool-tip (shown on mouse-over the column).Be wary that the
+        column width on that window is very small! (I'd say at most 8 or 9 chars without friggin' up the whole window
+        layout.)
+
+        In case you need it: RimWorld units of time are as follow:
+
+        1 tick = 1/60 second (note: a "real" second)
+        1 hour = 2500 ticks
+        1 day = 24 hours
+        5 days = 1 twelfth
+        3 twelves = 1 season (quadrum)
+        4 quadrum = 1 year
+        -->
+
+        <!-- Forecast for twelves -->
+    <PLTFW_ForecastForTwelves>Previsioni per blocchi da 5 giorni</PLTFW_ForecastForTwelves> <!-- title -->
+
+    <PLTFW_Quadrum>Quadrum</PLTFW_Quadrum> <!-- columm header -->
+    <PLTFW_QuadrumToolTip>Quadrum dell'anno</PLTFW_QuadrumToolTip>  <!-- tooltip -->
+
+    <PLTFW_Season>Stagione</PLTFW_Season>
+    <PLTFW_SeasonToolTip>Stagione dell'anno</PLTFW_SeasonToolTip>
+
+    <PLTFW_Twelfth>Dodicesimo</PLTFW_Twelfth>
+    <PLTFW_TwelfthToolTip>Dodicesimo di anno,ossia 5 giorni in gioco</PLTFW_TwelfthToolTip>
+
+    <PLTFW_AvgTemp>Temperatura Media</PLTFW_AvgTemp>
+    <PLTFW_AvgTempToolTip>Temperatura media per dodicesimo.</PLTFW_AvgTempToolTip>
+
+        <!-- Forecast for hours -->
+
+            <!-- 0 is the number of hours in a day; 1 is a date string as "5 Aprimay 5000" -->
+    <PLTFW_ForecastForHours>Previsioni per {0} Ore [{1}]</PLTFW_ForecastForHours>
+
+    <PLTFW_Hour>Ora</PLTFW_Hour>
+    <PLTFW_HourToolTip>Ora del Giorno</PLTFW_HourToolTip>
+
+    <PLTFW_OutdoorTemp>Temp.</PLTFW_OutdoorTemp> <!-- as in "Temperature" -->
+    <PLTFW_OutdoorTempToolTip>Temperatura Esterna</PLTFW_OutdoorTempToolTip>
+
+    <PLTFW_OffDRV>OffVCG</PLTFW_OffDRV>
+    <PLTFW_OffDRVToolTip>Offset dalla Variazione Casuale Giornaliera</PLTFW_OffDRVToolTip>
+
+    <PLTFW_OffSeason>OffStagione</PLTFW_OffSeason>
+    <PLTFW_OffSeasonToolTip>Offset dalla media stagionale</PLTFW_OffSeasonToolTip>
+
+    <PLTFW_SunEff>SunEff</PLTFW_SunEff> <!-- short for "Sun Effect"; this is the internal name in RimWorld's code -->
+            <!-- "SunEff" is in fact an offset from the 'normal' temperature given by the sun during the day -->
+    <PLTFW_SunEffToolTip>Offset rispetto alla temperatura data dal sole</PLTFW_SunEffToolTip>
+
+
+        <!-- Forecast for Next Year -->
+
+    <PLTFW_ForecastForNextYear>Previsioni per l'anno prossimo</PLTFW_ForecastForNextYear>
+
+    <PLTFW_Day>Giorno</PLTFW_Day>
+    <PLTFW_DayToolTip>Giorno dell'anno</PLTFW_DayToolTip>
+
+
+    <PLTFW_Min>Min</PLTFW_Min>
+    <PLTFW_MinToolTip>Temperatura minima questo giorno</PLTFW_MinToolTip>
+
+    <PLTFW_Max>Max</PLTFW_Max>
+    <PLTFW_MaxToolTip>Temperatura massima questo giorno</PLTFW_MaxToolTip>
+
+    <!-- from TableWindows.cs [TW] -->
+
+    <PLTFWTW_TileSpecifications>Specificazioni Luoghi</PLTFWTW_TileSpecifications>
+    <PLTFWTW_Date>Data</PLTFWTW_Date>
+    <PLTFWTW_TileId>Tile ID</PLTFWTW_TileId>
+    <PLTFWTW_LatLong>Latitudine - Longitudine</PLTFWTW_LatLong>
+    <PLTFWTW_EquatorialDistance>Distanza dall'Equatore</PLTFWTW_EquatorialDistance> <!-- tile distance from the planet equator -->
+    <PLTFWTW_TileAvgTemp>Temperatura media tra tutti i luoghi</PLTFWTW_TileAvgTemp>
+    <PLTFWTW_SeasonalShiftAmplitude>Drasticita' del cambio di temperatura tra le stagioni,rispetto ad un punto ideale all'equatore.</PLTFWTW_SeasonalShiftAmplitude> <!-- Tile Temperature offset due to its position on the globe, compared to an idealized position at the equator -->
+
+</LanguageData>

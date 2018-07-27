@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <!-- Use 4 spaces indentation, NOT tabs -->
+    <!-- Overall prefix for the mod is "PL" for PrepareLanding; MW for Main Window -->
+
+    <!--========================================== Preset Manager [PRESTMAN] ========================================-->
+
+    <PLPRESTMAN_ErrorLoadingPreset>Un errore e' accaduto durante il caricamento del preset.</PLPRESTMAN_ErrorLoadingPreset>
+    <PLPRESTMAN_ErrorLoadingPresetInfo>Un errore e' accaduto durante il caricamento delle informazioni sul preset.</PLPRESTMAN_ErrorLoadingPresetInfo>
+    <PLPRESTMAN_NoOverwritePresetTemplate>Non e' possibile sovrascrivere un preset di base.</PLPRESTMAN_NoOverwritePresetTemplate>
+    <PLPRESTMAN_ErrorSavingPreset>Un errore e' accaduto durante il salvataggio del preset.</PLPRESTMAN_ErrorSavingPreset>
+    <PLPRESTMAN_NoDeletePresetTemplate>Non e' possibile eliminare un preset di base.</PLPRESTMAN_NoDeletePresetTemplate>
+    <PLPRESTMAN_ErrorDeletingPreset>Un errore e' accaduto durante l'eliminazione del preset.</PLPRESTMAN_ErrorDeletingPreset>
+</LanguageData>

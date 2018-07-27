@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <!-- Use 4 spaces indentation, NOT tabs -->
+    <!-- Overall prefix for the mod is "PL" for PrepareLanding; MW for Main Window -->
+
+    <!--============================================ Filtered Tiles [FTIL] ==========================================-->
+
+    <PLMWFTIL_FilteredTiles>Luoghi individuati</PLMWFTIL_FilteredTiles>
+
+    <!-- buttons for navigating in the list of filtered tiles (most strings are tool-tips); note that these strings are
+    also used on the Prepare Landing "minimized window".    
+    -->
+    <PLMWFTIL_GoToStartOfTileList>Vai all'inizio della lista.</PLMWFTIL_GoToStartOfTileList>
+    <PLMWFTIL_ReachedListStart>Inizio raggiunto.</PLMWFTIL_ReachedListStart> <!-- info message; string is followed by a number -->
+    <PLMWFTIL_GoToPreviousListPage>Vai alla pagina precedente.</PLMWFTIL_GoToPreviousListPage>
+    <PLMWFTIL_NoMoreTilesAvailable>Nessun altro luogo individuato (max:</PLMWFTIL_NoMoreTilesAvailable> <!-- info message; string is followed by a number -->
+    <PLMWFTIL_GoToNextListPage>Vai alla prossima pagina.</PLMWFTIL_GoToNextListPage>
+    <PLMWFTIL_GoToEndOfList>Vai alla fine della lista.</PLMWFTIL_GoToEndOfList>
+
+
+    <!-- other window entries; note that the other strings that appears on this window already have a translation in RimWorld's code -->
+    <PLMWFTIL_ClearFilteredTiles>Rimuovi tutti i filtri</PLMWFTIL_ClearFilteredTiles>
+    <PLMWFTIL_SelectedTileInfo>Informazioni sul luogo selezionato</PLMWFTIL_SelectedTileInfo>
+    <PLMWFTIL_DebugWorldTileId>Debug Tile ID del luogo</PLMWFTIL_DebugWorldTileId> <!-- internal number assigned to each of the world tiles by RimWorld -->
+</LanguageData>

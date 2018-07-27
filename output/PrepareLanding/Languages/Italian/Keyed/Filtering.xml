@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <!-- Use 4 spaces indentation, NOT tabs -->
+    <!-- Overall prefix for the mod is "PL" for PrepareLanding -->
+
+    <!--=============================================== Filtering [FILT] =============================================-->
+    <PLFILT_FilteredTilesCleared>Filtri Rimossi.</PLFILT_FilteredTilesCleared>
+    <PLFILT_FilterTilesFirst>Imposta prima i filtri.</PLFILT_FilterTilesFirst>
+    <PLFILT_FailedFindValidBaseTile>Impossibile trovare un luogo corrispondente adatto.</PLFILT_FailedFindValidBaseTile>
+    <PLFILT_NewFilterfing>Nuovo filtraggio</PLFILT_NewFilterfing>
+        <!-- {0} is 0 or a positive number -->
+    <PLFILT_StartingFilteringWithxTiles>Iniziando a filtrare con: {0} luoghi.</PLFILT_StartingFilteringWithxTiles>
+        <!-- {0} is either PLFILT_InConjunctionPreviousFilters or simply a dot '.' -->
+    <PLFILT_ZeroMatchingTiles>Questo filtro risulta in 0 risultati {0} Prova ad alleggerire i filtri.</PLFILT_ZeroMatchingTiles>
+        <!-- {0} is 0 or a positive number -->
+    <PLFILT_InConjunctionPreviousFilters> (insieme ai {0} filtri precedenti)</PLFILT_InConjunctionPreviousFilters>
+    <PLFILT_FilterResultZeroTiles>I filtri risultano in 0 luoghi.</PLFILT_FilterResultZeroTiles>
+    <PLFILT_AllValidTilesMatching>Questo filtro corrisponde a tutti i luoghi.</PLFILT_AllValidTilesMatching>
+        <!-- as in "Filtering Biomes: 123 tiles found." -->
+    <PLFILT_TilesFound>luoghi individuati</PLFILT_TilesFound>
+        <!-- as in "Filter ran in: 0.01 seconds." ; note that this is for a single filter -->
+    <PLFILT_FilterRanIn>Filtrato in:</PLFILT_FilterRanIn>
+        <!-- {0} is 0 or a positive number -->
+    <PLFILT_xTilesMatchAllFilters>Prima di controllare la validita' dei luoghi : {0} luogo/i corrispondono ai filtri.</PLFILT_xTilesMatchAllFilters>
+    <PLFILT_NoTileMatchesFilter>Nessuno luogo corrispone ai filtri(s).</PLFILT_NoTileMatchesFilter>
+        <!-- {0} is 0 or a positive number; {1} is a time as in: "All 2 filters ran in 0.01 seconds" -->
+    <PLFILT_AllFiltersRanIn>Tutti i {0} filtri sono stati applicati in {1}.</PLFILT_AllFiltersRanIn>
+        <!-- {0} is 0 or a positive number -->
+    <PLFILT_TotalOfxTilesMatchAllFilters>{0} luogo/i corrispondono ai filtri.</PLFILT_TotalOfxTilesMatchAllFilters>
+    <PLFILT_PreFiltering>PreFiltraggio</PLFILT_PreFiltering>
+        <!-- {0} and {1} are 0 or a positive number -->
+    <PLFILT_ValidTilesRemainAfterFilter>Pre-filtro: {0} luogo/i valido/i rimanente/i ({1} luogo/i rimossi).</PLFILT_ValidTilesRemainAfterFilter>
+        <!-- {0} is 0 or a positive number -->
+    <PLFILT_TilesWithRiver>Pre-filtro: {0} luoghi con almeno un fiume.</PLFILT_TilesWithRiver>
+    <PLFILT_TilesWithRoad>Pre-filtro: {0} luoghi con almeno una strada.</PLFILT_TilesWithRoad>
+    <PLFILT_NewWorld>Nuovo Mondo</PLFILT_NewWorld>
+    <PLFILT_AllFiltersInDefaultState>Tutti i filtri sono stati ripristinati</PLFILT_AllFiltersInDefaultState>
+    <PLFILT_PleaseSelectAtLeastOneFilter>Selezionare almeno un filtro</PLFILT_PleaseSelectAtLeastOneFilter>
+        <!-- {0} is a hilliness type, as "Large Hills" for example -->
+    <PLFILT_NoCavesForChosenTerrain>Non possono esserci grotte sul tipo di terreno selezionato. Seleziona almeno {0}.</PLFILT_NoCavesForChosenTerrain>
+    <PLFILT_NoBiomeNoTerrainSelected>Nessun bioma ne' terreno selezionato per un pianeta al >= 50%&#xA;&#x9;Scegliere un bioma ed un terreno prima.</PLFILT_NoBiomeNoTerrainSelected>
+
+    <!-- ######## dev: this is in TileFilter.cs ######## -->
+
+    <PLFILT_Filtering>Filtrando</PLFILT_Filtering> <!-- as in "Filtering Biomes" or "Filtering Caves" -->
+    <PLFILT_MovementTimeIsNull>Il Tempo di attraversamento e' nullo in</PLFILT_MovementTimeIsNull> <!-- followed by a function name; this is an internal error that might be logged on the GUI -->
+    <PLFILT_VerifyMinIsLessOrEqualMax>Verificare che il valore minimo sia minore o uguale a quello massimo (risultato:</PLFILT_VerifyMinIsLessOrEqualMax> <!-- followed by two numbers -->
+    <PLFILT_TemperatureIsNull>La temperatura e' nulla in</PLFILT_TemperatureIsNull>
+
+    <!--============ Filter Info Logger [FILIL] ==============-->
+
+        <!-- for {0} there are two possibilities:
+            - it is a short message, starting with a space (thus there's no space between 'occurred' and {0})
+            - there is not short message and then the string is a dot ('.');
+        {1} is a tab name, probably "World Info" but this is also translated. -->
+    <PLFILIL_FilterErrorOccurred>Un errore dei filtri e' accaduto{0}&#xA;Vedere il menu "{1}" per una descrizione dell'errore.</PLFILIL_FilterErrorOccurred>
+
+    <!--============ LongEventHandler ==============-->
+        <!-- Note: RimWorld offers no translation text for these strings... I let them here in case it is added in Rimworld's code -->
+    <PLFILT_FilteringWorldTiles>Filtrando luoghi</PLFILT_FilteringWorldTiles>
+    <PLFILT_PreFilteringWorldTiles>Pre-filtrando luoghi</PLFILT_PreFilteringWorldTiles>
+
+</LanguageData>

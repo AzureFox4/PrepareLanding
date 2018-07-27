@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <!-- Use 4 spaces indentation, NOT tabs -->
+    <!-- Overall prefix for the mod is "PL" for PrepareLanding; MW for Main Window -->
+
+    <!--=========================================== Load / Save Tab [LODSAV] ========================================-->
+    <PLMWLODSAV_Preset>Preset</PLMWLODSAV_Preset> <!-- used right after a mode, either "load" or "save", as in "Load Preset" -->
+    <PLMWLODSAV_Load>Carica</PLMWLODSAV_Load>
+    <PLMWLODSAV_Save>Salva</PLMWLODSAV_Save>
+    <PLMWLODSAV_Delete>Elimina</PLMWLODSAV_Delete>
+    <PLMWLODSAV_DeleteConfirm>Elimina [conferma]</PLMWLODSAV_DeleteConfirm>
+
+    <!-- buttons for navigating in the list of presets (most strings are tool-tips) -->
+    <PLMWLODSAV_GoToStartOfItemList>Vai all'inizio della lista.</PLMWLODSAV_GoToStartOfItemList>
+    <PLMWLODSAV_ReachedListStart>Sei all'inizio della lista.</PLMWLODSAV_ReachedListStart>
+    <PLMWLODSAV_GoToPreviousListPage>Vai alla pagina precedente.</PLMWLODSAV_GoToPreviousListPage>
+    <PLMWLODSAV_NoMoreItemsAvailable>Nessun'altro oggetto da mostrare (max:</PLMWLODSAV_NoMoreItemsAvailable> <!-- info message; string is followed by a number -->
+    <PLMWLODSAV_GoToNextListPage>Vai alla prossima pagina.</PLMWLODSAV_GoToNextListPage>
+    <PLMWLODSAV_GoToEndOfList>Vai alla fine della lista.</PLMWLODSAV_GoToEndOfList>
+
+    <PLMWLODSAV_ExitCurrentMode>Esci</PLMWLODSAV_ExitCurrentMode> <!-- note: the string is followed by either 'Save' or 'Load' -->
+    <PLMWLODSAV_PickPresetFirst>Scegli prima un preset.</PLMWLODSAV_PickPresetFirst>
+
+    <!-- delete -->
+    <PLMWLODSAV_SuccessDelete>Successo nell'eliminazione del preset!</PLMWLODSAV_SuccessDelete>
+    <PLMWLODSAV_ErrorDelete>Errore nell'eliminazione del preset...</PLMWLODSAV_ErrorDelete>
+
+    <!-- load -->
+    <PLMWLODSAV_SuccessLoad>Preset Caricato</PLMWLODSAV_SuccessLoad>
+    <PLMWLODSAV_ErrorLoad>Errore nel caricamento del preset...</PLMWLODSAV_ErrorLoad>
+    <PLMWLODSAV_PresetLoadMode>File di preset:modalita' caricamento</PLMWLODSAV_PresetLoadMode>
+    <PLMWLODSAV_NoExistingPresets>Nessun Preset esistente.</PLMWLODSAV_NoExistingPresets>
+
+    <!-- save -->
+    <PLMWLODSAV_SuccessSave>Preset salvato!</PLMWLODSAV_SuccessSave>
+    <PLMWLODSAV_ErrorSave>Errore nel salvataggio del preset...</PLMWLODSAV_ErrorSave>
+    <PLMWLODSAV_PresetSaveMode>File di preset:modalita' salvataggio</PLMWLODSAV_PresetSaveMode>
+    <PLMWLODSAV_AllFiltersInDefaultState>Tutti i filtri appaiono in posizione standard.</PLMWLODSAV_AllFiltersInDefaultState>
+    <PLMWLODSAV_ClickAgainOnSaveButton>Seleziona nuovamente "salva" per confermare la sovrascrizione.</PLMWLODSAV_ClickAgainOnSaveButton>
+    <PLMWLODSAV_FileName>Nome File:</PLMWLODSAV_FileName>
+    <PLMWLODSAV_SaveOptions>Save Options</PLMWLODSAV_SaveOptions>
+    <PLMWLODSAV_SaveOptionsToolTip>Spunta per salvare anche impostazione oltre ai filtri.</PLMWLODSAV_SaveOptionsToolTip>
+    <PLMWLODSAV_AuthorName>Autore: [opzionale; {0} caratteri max]</PLMWLODSAV_AuthorName>
+    <PLMWLODSAV_DescriptionString>Descrizione: [opzonale; {0} caratteri max]</PLMWLODSAV_DescriptionString>
+
+    <!-- info -->
+    <PLMWLODSAV_PresetInfo>Preset Info:</PLMWLODSAV_PresetInfo>
+    <PLMWLODSAV_PresetName>Preset Nome:</PLMWLODSAV_PresetName>
+    <PLMWLODSAV_PresetAuthor>Autore:</PLMWLODSAV_PresetAuthor>
+    <PLMWLODSAV_PresetDescription>Descrizione:</PLMWLODSAV_PresetDescription>
+    <PLMWLODSAV_PresetFilters>Filtri:</PLMWLODSAV_PresetFilters>
+    <PLMWLODSAV_PresetOptions>Opzioni:</PLMWLODSAV_PresetOptions>
+</LanguageData>

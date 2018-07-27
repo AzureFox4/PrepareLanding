@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <!-- Use 4 spaces indentation, NOT tabs -->
+    <!-- Overall prefix for the mod is "PL" for PrepareLanding; MW for Main Window -->
+
+    <!--============================================ Tile Filters [TILFILT] =========================================-->
+    <!-- dev: Tilefilters.cs -->
+
+    <!-- Note to translators: check the Rimworld's core translation; most of those terms are already translated, but without an ending plural 's' -->
+    <PLTILFILT_Biomes>Bioma</PLTILFILT_Biomes>
+    <PLTILFILT_Terrains>Terreno</PLTILFILT_Terrains>
+    <PLTILFILT_Roads>Strade</PLTILFILT_Roads>
+    <PLTILFILT_Stones>Rocce</PLTILFILT_Stones>
+    <PLTILFILT_CantSelectMoreThan3Stones>Non e' possibile selezionare piu' di 3 tipi di rocce (selezionate:</PLTILFILT_CantSelectMoreThan3Stones> <!-- followed by a number -->
+    <PLTILFILT_AtLeast2StoneTypesOnOrPartial>Almeno 2 tipi di rocce devono essere su ON o parziale (selezionate:</PLTILFILT_AtLeast2StoneTypesOnOrPartial> <!-- followed by a number -->
+    <PLTILFILT_Rivers>Fiume</PLTILFILT_Rivers>
+    <PLTILFILT_CurrentMovementTimes>Tempo di attraversamento</PLTILFILT_CurrentMovementTimes>
+    <PLTILFILT_WinterMovementTimes>Tempo di attraversamento invernale</PLTILFILT_WinterMovementTimes>
+    <PLTILFILT_SummerMovementTimes>Tempo di attraversamento estivo</PLTILFILT_SummerMovementTimes>
+    <PLTILFILT_CoastalTiles>Luoghi Costieri</PLTILFILT_CoastalTiles>
+    <PLTILFILT_CoastalLakeTiles>Luoghi Adiacenti a Laghi</PLTILFILT_CoastalLakeTiles>
+    <PLTILFILT_Elevations>Altitudine</PLTILFILT_Elevations>
+    <PLTILFILT_TimeZones>Fuso Orario</PLTILFILT_TimeZones>
+    <PLTILFILT_AverageTemperatures>Temperature Medie</PLTILFILT_AverageTemperatures>
+    <PLTILFILT_WinterTemperatures>Temperature Invernali</PLTILFILT_WinterTemperatures>
+    <PLTILFILT_SummerTemperatures>Temperature Estive</PLTILFILT_SummerTemperatures>
+    <PLTILFILT_GrowingPeriods>Periodi di Raccolto</PLTILFILT_GrowingPeriods>
+    <PLTILFILT_RainFalls>Piogge</PLTILFILT_RainFalls>
+    <PLTILFILT_RequestingMoreTilesThanAvailable>Hai richiesto piu' luoghi di quelli disponibili sulla mappa (max:</PLTILFILT_RequestingMoreTilesThanAvailable>  <!-- followed by a number -->
+    <PLTILFILT_WorldFeatures>Caratteristiche</PLTILFILT_WorldFeatures> <!-- these are the named locations on the world map -->
+    <PLTILFILT_CoastalRotation>Posizione del Mare</PLTILFILT_CoastalRotation>
+
+</LanguageData>

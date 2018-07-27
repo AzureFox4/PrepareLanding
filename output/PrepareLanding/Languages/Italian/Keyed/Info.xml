@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <!-- Use 4 spaces indentation, NOT tabs -->
+    <!-- Overall prefix for the mod is "PL" for PrepareLanding; MW for Main Window -->
+
+    <!--============================================== Information [INF] ============================================-->
+
+    <PLMWINF_WorldInfo>Informazioni sul Pianeta</PLMWINF_WorldInfo>
+
+    <PLMWINF_PlanetName>Pianeta : </PLMWINF_PlanetName>
+        <!-- all the following strings are followed by a strictly positive integer number -->
+    <PLMWINF_TotalTiles>Luoghi totali</PLMWINF_TotalTiles>
+    <PLMWINF_SettleableTiles>Luoghi validi per una colonia</PLMWINF_SettleableTiles> <!-- as in "number of tiles that can be settled" -->
+    <PLMWINF_TilesWithRivers>Luoghi Fluviali</PLMWINF_TilesWithRivers>
+    <PLMWINF_TilesWithRoads>Luoghi con strade</PLMWINF_TilesWithRoads>
+    <PLMWINF_Biomes>Biomi</PLMWINF_Biomes>
+    <PLMWINF_NumberOfTiles>Luoghi</PLMWINF_NumberOfTiles>
+
+        <!-- "Records" as in highest or lowest characteristics (e.g temperature, altitude, etc.)
+        The string is constructed as follows:
+
+        * World [Highest/Lowest] "charac": X Y -> [tile: N; LAT - LONG]
+
+        * examples:
+            - World Lowest Temperature: -50°C -> [tile: 712; 43.01°N - 0.5°W]
+            - World Highest Altitude: 4807m -> [tile: 42; 55.12°S - 18.9°E]
+
+        Where:
+
+        - [highest/lowest]: one of those two strings
+        - "charac": is a world characteristic (temperature, altitude, etc.)
+        - X:        is the lowest / highest value of "charac"
+        - Y:        is the SI unit associated with the "charac" (e.g Celsius or Meters)
+        - N:        is the tile number
+        - LAT:      is the latitude of the tile
+        - LONG:     is the longitude of the tile
+        -->
+    <PLMWINF_WorldLowest>Minimo Planetario</PLMWINF_WorldLowest>
+    <PLMWINF_WorldHighest>Massimo Planetario</PLMWINF_WorldHighest>
+
+        <!-- other entries -->
+
+    <PLMWINF_FilterInfo>Informazioni Filtro</PLMWINF_FilterInfo>
+    <PLMWINF_ClearInfo>Vuota Informazioni</PLMWINF_ClearInfo>
+
+    <PLMWINF_WorldRecords>Estremi</PLMWINF_WorldRecords> <!-- "Records" as in highest or lowest values in the world -->
+</LanguageData>

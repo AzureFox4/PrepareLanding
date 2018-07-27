@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <!-- use 4 spaces indentation, NOT tabs -->
+    <!-- Overall prefix for the mod is "PL" for PrepareLanding -->
+    
+    <!--=========================================== Main Game Options [GOPT] ========================================-->
+    <!-- visible in "Options > Mod Settings" menu only -->
+    <PLGOPT_DisableWorldDataTitle>Disabilita World Data</PLGOPT_DisableWorldDataTitle>
+    <PLGOPT_DisableWorldDataDescription>Permetti di disabilitare World Data:&#xD;World Data sono varie informazioni usate da PrepareLanding,se disabilitate si risparmia memoria e CPU.&#xD;In cambio meno informazioni saranno disponibili.</PLGOPT_DisableWorldDataDescription>
+
+    <!--======================================== Main Window Options Tab [OPT] ======================================-->
+        <!-- Tab Name in main window -->
+    <PLOPT_Options>Opzioni</PLOPT_Options>
+
+    <!-- Note: for each option: the 1st entry is the text visible on the on Options tab, the second entry is the tool-tip shown when hovering above the option text -->
+
+    <!--======================================== Filter Options ======================================-->
+    <PLOPT_FilterOptions>Opzioni Filtri</PLOPT_FilterOptions>
+
+
+    <PLOPT_AllowLiveFiltering>Permetti Filtraggio Istantaneo</PLOPT_AllowLiveFiltering>
+    <PLOPT_AllowLiveFilteringToolTip>[Attenzioni: pesante sulla CPU] Permetti di filtrare istantaneamente senza dover premere "filtra" ogni volta.</PLOPT_AllowLiveFilteringToolTip>
+
+    <PLOPT_AllowImpassableTiles>Includi luoghi non attraversabili</PLOPT_AllowImpassableTiles>
+    <PLOPT_AllowImpassableTilesToolTip>Includi luoghi non attraversabili nei risultati,ne' colonizzabili senza apposite mod.</PLOPT_AllowImpassableTilesToolTip>
+
+    <PLOPT_DisablePreFilterCheck>Disabilita controlli pre-filtraggio</PLOPT_DisablePreFilterCheck>
+    <PLOPT_DisablePreFilterCheckToolTip>Disabiliti i controlli in cui Biomi e Terreno devono essere selezionati con un pianeta al >= 50%.</PLOPT_DisablePreFilterCheckToolTip>
+
+        <!-- note: if you have a hard time translating "PartialOffNoSelect", it's a shorthand for "Partial and Off gives No Selection-->
+        <!-- simply put: if a filter is set to partial or off, then it does not select anything -->
+        <!-- This option allows to invert this behavior by showing a new button, so partial or off might select things on the world map (the default is to not select anything) -->
+        <!-- This is a rather 'hidden' option, and I doubt anyone is using it; it is a bit documented in the official doc though... -->
+    <PLOPT_ViewPartialOffNoSelect>Visualizza PartialOffNoSelect</PLOPT_ViewPartialOffNoSelect>
+    <PLOPT_ViewPartialOffNoSelectToolTip>Permetti di visualizzare il pulsante PartialOffNoSelect sulla GUI per gruppi di filtri con i tre possibili stati di ON OFF e Partial.</PLOPT_ViewPartialOffNoSelectToolTip>
+
+    <PLOPT_ResetAllFiltersOnNewWorld>Ripristina i filtri ad un nuovo mondo</PLOPT_ResetAllFiltersOnNewWorld>
+    <PLOPT_ResetAllFiltersOnNewWorldToolTip>Se attivato,tutti i filtri verrano ripristinati per ogni nuovo mondo creato,altrimenti rimarranno identici all'ultima impostazione.</PLOPT_ResetAllFiltersOnNewWorldToolTip>
+
+    <!-- note: "heaviness" in terms of CPU calculation -->
+    <PLOPT_ShowFilterHeaviness>Mostra "peso" del filtro</PLOPT_ShowFilterHeaviness>
+    <PLOPT_ShowFilterHeavinessToolTip>Mostra peso dei filtri selezionati sulla CPU nell'interfaccia.</PLOPT_ShowFilterHeavinessToolTip>
+
+    <PLOPT_AllowInvalidTilesForNewSettlement>Mostra luoghi incolonizzabili</PLOPT_AllowInvalidTilesForNewSettlement>
+    <PLOPT_AllowInvalidTilesForNewSettlementToolTip>Se attivato disabilita l'ultimo controllo che rimuove dai risultati luoghi normalmente non colonizzabili,come in prossimita' di altre fazioni,o su montagne impassabili.Utile se si usano altre mod che creano biomi su zone impassabili,o premettono la libera colonizzazione.</PLOPT_AllowInvalidTilesForNewSettlementToolTip>
+
+    <!--======================================== Tile Highlighter Options ======================================-->
+
+    <PLOPT_TileHighlighterOptions>Opzioni dell'evidenziatore risultati</PLOPT_TileHighlighterOptions>
+
+    <PLOPT_DisableTileHighlighting>Disabilita evidenziatore</PLOPT_DisableTileHighlighting>
+    <PLOPT_DisableTileHighlightingToolTip>Disabilita l'evidenziamento dei luoghi sulla mappa..</PLOPT_DisableTileHighlightingToolTip>
+
+    <PLOPT_DisableTileBlinking>Disabilita Lampeggio</PLOPT_DisableTileBlinking>
+    <PLOPT_DisableTileBlinkingToolTip>Disabilita il lampeggio ("respiro") dei luoghi risultanti sulla mappa.</PLOPT_DisableTileBlinkingToolTip>
+
+    <PLOPT_ShowDebugTileId>Mostra Tile ID di debug</PLOPT_ShowDebugTileId>
+    <PLOPT_ShowDebugTileIdToolTip>Mostra il Tile ID dei luoghi,per motivi di debug.</PLOPT_ShowDebugTileIdToolTip>
+
+        <!-- {0} is a strictly positive number -->
+    <PLOPT_BypassTileHighlighterMaximum>Ignora massimo numero di luoghi evidenziati</PLOPT_BypassTileHighlighterMaximum>
+    <PLOPT_BypassTileHighlighterMaximumToolTip>Permetti di Evidenziari piu' di {0} luoghi.</PLOPT_BypassTileHighlighterMaximumToolTip>
+
+</LanguageData>

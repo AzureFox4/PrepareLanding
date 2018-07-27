@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <!-- Use 4 spaces indentation, NOT tabs -->
+    <!-- Overall prefix for the mod is "PL" for PrepareLanding; "MW" for Main Window -->
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Terrain Tab [TT] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <PLMWTT_TabName>Terreno</PLMWTT_TabName>
+
+    <PLMWTT_ButtonResetTooltip>Ripristina tutto allo stato di default (Parziale) state.</PLMWTT_ButtonResetTooltip>
+    <PLMWTT_ButtonAllTooltip>Imposta tutto su ON.</PLMWTT_ButtonAllTooltip>
+    <PLMWTT_ButtonNoneTooltip>Imposta tutto su OFF.</PLMWTT_ButtonNoneTooltip>
+
+    <PLMWTT_BiomeTypes>Tipi di Bioma</PLMWTT_BiomeTypes>
+    <PLMWTT_SelectBiome>Seleziona Bioma</PLMWTT_SelectBiome>
+    <PLMWTT_SelectBiomeType>Seleziona Tipo di Bioma</PLMWTT_SelectBiomeType>
+    <PLMWTT_AnyBiome>Qualsiasi Bioma</PLMWTT_AnyBiome>
+
+    <PLMWTT_CoastalTiles>Luoghi Costieri</PLMWTT_CoastalTiles>
+    <PLMWTT_IsCoastalTileOcean>E' una localita' costiera (oceano)</PLMWTT_IsCoastalTileOcean>
+    <PLMWTT_UseCoastalRoation>Utilizza la scelta della posizione della costa</PLMWTT_UseCoastalRoation>
+    <PLMWTT_UseCoastalRoationTooltip>Utilizza il filtro per scegliere luoghi con la costa affacciata in una precisa direzione.</PLMWTT_UseCoastalRoationTooltip>
+    <PLMWTT_SelectCoastRotation>Seleziona Posizione della Costa</PLMWTT_SelectCoastRotation>
+    <PLMWTT_SelectedCoastRotation>Posizione della Costa Selezionata</PLMWTT_SelectedCoastRotation>
+    <PLMWTT_IsCoastalTileLake>Luogo costiero (lago)</PLMWTT_IsCoastalTileLake>
+    <PLMWTT_IsCoastalTileLakeTooltip>Un lago e' una regione della mappa di massimo 15 Tile,circondata da terreno.</PLMWTT_IsCoastalTileLakeTooltip>
+
+    <PLMWTT_TerrainTypes>Tipi di Terreno</PLMWTT_TerrainTypes>
+    <PLMWTT_SelectTerrain>Scegli Terreno</PLMWTT_SelectTerrain>
+
+    <PLMWTT_RiverTypes>Tipi di Fiume</PLMWTT_RiverTypes>
+
+    <PLMWTT_FilterBooleanOr>OR</PLMWTT_FilterBooleanOr>  <!-- boolean OR; uppercase -->
+    <PLMWTT_FilterBooleanAnd>AND</PLMWTT_FilterBooleanAnd>  <!-- boolean AND; uppercase -->
+    <PLMWTT_ORANDTooltip>Tipo di filtro da usare.&#10;OR: ogni oggetto e' valutato indipendentemente.&#10;AND: tutti gli oggetti sono valutati insieme.</PLMWTT_ORANDTooltip>
+    <PLMWTT_OffPartialTooltip>Se selezionato,gli stati di OFF e Partial non permettono di selezionare luoghi.&#10;Se non, Permettono di selezionare luoghi.</PLMWTT_OffPartialTooltip>
+    <PLMWTT_SelectedShort>Sel.</PLMWTT_SelectedShort> <!-- 'Sel.' as in "Selected" -->
+
+    <PLMWTT_RoadTypes>Tipi di Strada</PLMWTT_RoadTypes>
+
+    <PLMWTT_StoneTypes>Tipi di Rocce</PLMWTT_StoneTypes>
+    <PLMWTT_StoneOrderTooltip> Se i tipi di rocce sono ordinati in un ordine preciso.\nPremi pulsante per cambiare lo stato del filtro.</PLMWTT_StoneOrderTooltip>
+    <PLMWTT_Ordered>Ordinato</PLMWTT_Ordered> <!-- as of now only used for stone filter -->
+    <PLMWTT_NoOrder>Nessun Ordine</PLMWTT_NoOrder> <!-- as of now only used for stone filter -->
+    <PLMWTT_Filter>Filtro</PLMWTT_Filter> <!-- as in "Filter: Ordered" or "Filter: No order" -->
+    <PLMWTT_UseNumberOfStoneTypes>Usa # tipi di rocce [2,3]</PLMWTT_UseNumberOfStoneTypes>
+    <PLMWTT_UseNumberOfStoneTypesToolTip>Mostra solo luoghi con # numero di tipi di rocce(Indifferente dal tipo). Disabilita tutti gli altri filtri sulle rocce.</PLMWTT_UseNumberOfStoneTypesToolTip>
+
+</LanguageData>
