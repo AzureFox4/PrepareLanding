@@ -26,7 +26,7 @@
     <PLCOORDWIN_TileIdNum>ID Posizione [0, {0}]:</PLCOORDWIN_TileIdNum>
     <PLCOORDWIN_GoButton>Vai alla posizione</PLCOORDWIN_GoButton> <!-- as in "Go to the tile" -->
         <!-- {0} is a tile ID (number); {1} is the maximum tile number (not included in the range!)-->
-    <PLCOORDWIN_TileIdOutOfRange>Distanza ecceduta: {0}; Distanza: [0, {1}).</PLCOORDWIN_TileIdOutOfRange>  <!-- I cannot understand if you mean out of range,as in distance,or out of range as in excessive number.-->
+    <PLCOORDWIN_TileIdOutOfRange>Numero massimo ecceduto: {0}; Raggio: [0, {1}).</PLCOORDWIN_TileIdOutOfRange>  <!-- I cannot understand if you mean out of range,as in distance,or out of range as in excessive number.-->
     <PLCOORDWIN_CoordsLabel>Coords:</PLCOORDWIN_CoordsLabel> <!-- as in "coordinates" but space is tight -->
     <PLCOORDWIN_NoTileForCoords>Impossibile trovare luogo date le coordinate:</PLCOORDWIN_NoTileForCoords>
 
